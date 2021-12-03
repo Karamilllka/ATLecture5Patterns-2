@@ -28,7 +28,7 @@ public class AutoTest {
     }
 
     @Test
-    public void shouldBlockedUser() {
+    public void shouldBlockedUserr() {
         var blockedUser = getRegisteredUser("blocked");
 
         $("[data-test-id='login']  input").setValue(blockedUser.getLogin());
